@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="270" viewBox="0 0 840 270" role="img" aria-label="Mac desktop widgets for Übersicht: clocks, CPU/GPU/memory rings, network, a free-up-memory panel and a daily Bing / Spotlight wallpaper with a magazine caption.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f7fa"/></linearGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="839" height="269" rx="16"/></clipPath>
+</defs>
+<rect x="0.5" y="0.5" width="839" height="269" rx="16" fill="url(#bg)" stroke="#d0d7de"/>
+<g clip-path="url(#card)"><rect x="0" y="0" width="840" height="4" fill="#e76f51"/></g>
+<text x="36" y="52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#e76f51">SIDE BUILD · macOS</text>
+<text x="36" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">Mac desktop widgets</text>
+<text x="36" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#57606a">Text straight on the photo: clocks, live system rings,</text>
+<text x="36" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#57606a">a free-up panel and a new wallpaper every day.</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.5s" fill="freeze"/><rect x="36" y="169" width="124" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="98" y="186" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#1f2328">Übersicht + JSX</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.5s" fill="freeze"/><rect x="168.5" y="169" width="188" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="263" y="186" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#1f2328">CPU · GPU · memory rings</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.5s" fill="freeze"/><rect x="36" y="203" width="203" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="137" y="220" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#1f2328">Quit the app eating memory</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.5s" fill="freeze"/><rect x="246.6" y="203" width="203" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="348" y="220" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#1f2328">Bing / Spotlight wallpaper</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.30s" dur="0.5s" fill="freeze"/><rect x="36" y="237" width="160" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="116" y="254" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#1f2328">~11 ms CPU every 5 s</text></g>
+<g clip-path="url(#card)">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d3557"/><stop offset="0.55" stop-color="#e76f51"/><stop offset="1" stop-color="#2a1a2e"/></linearGradient><linearGradient id="shade" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.55"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient><clipPath id="screen"><rect x="486" y="26" width="326" height="218" rx="10"/></clipPath></defs>
+<rect x="480" y="20" width="338" height="230" rx="14" fill="#1c1f24" stroke="#d0d7de"/>
+<g clip-path="url(#screen)"><rect x="486" y="26" width="326" height="218" fill="url(#sky)"/>
+<circle cx="576" cy="164" r="26" fill="#f4a261" opacity="0.9"><animate attributeName="cy" values="164;158;164" dur="12s" repeatCount="indefinite"/></circle>
+<path d="M486 194 Q556 154 636 186 T812 176 V244 H486z" fill="#264653"/>
+<path d="M486 216 Q596 186 686 212 T812 204 V244 H486z" fill="#1b2f38"/>
+<rect x="632" y="26" width="180" height="128" fill="url(#shade)"/>
+<text x="796" y="68" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="200" fill="#eef1f6">9:41</text>
+<text x="796" y="84" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" fill="#eef1f6" fill-opacity="0.8">TUE 17 NOV · 2 MORE TIME ZONES</text>
+<circle cx="688" cy="112" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3.5"/>
+<circle cx="688" cy="112" r="13" fill="none" stroke="#7dd3fc" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="81.7" stroke-dashoffset="81.7" transform="rotate(-90 688 112)"><animate attributeName="stroke-dashoffset" values="81.7;45.7;55.5;60.4;55.5" keyTimes="0;0.25;0.4;0.7;1" dur="6s" begin="0.0s" repeatCount="indefinite"/></circle>
+<text x="688" y="138" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" fill="#eef1f6" fill-opacity="0.75">CPU</text>
+<circle cx="732" cy="112" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3.5"/>
+<circle cx="732" cy="112" r="13" fill="none" stroke="#a78bfa" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="81.7" stroke-dashoffset="81.7" transform="rotate(-90 732 112)"><animate attributeName="stroke-dashoffset" values="81.7;57.2;67.0;71.9;67.0" keyTimes="0;0.25;0.4;0.7;1" dur="6s" begin="0.2s" repeatCount="indefinite"/></circle>
+<text x="732" y="138" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" fill="#eef1f6" fill-opacity="0.75">GPU</text>
+<circle cx="776" cy="112" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3.5"/>
+<circle cx="776" cy="112" r="13" fill="none" stroke="#60a5fa" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="81.7" stroke-dashoffset="81.7" transform="rotate(-90 776 112)"><animate attributeName="stroke-dashoffset" values="81.7;13.9;23.7;28.6;23.7" keyTimes="0;0.25;0.4;0.7;1" dur="6s" begin="0.4s" repeatCount="indefinite"/></circle>
+<text x="776" y="138" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" fill="#eef1f6" fill-opacity="0.75">MEM</text>
+<text x="796" y="156" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" fill="#eef1f6" fill-opacity="0.85">↓ 2.4 MB/s  ↑ 0.3 MB/s · Wi-Fi</text>
+<text x="796" y="200" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" letter-spacing="1" fill="#eef1f6" fill-opacity="0.7">BING · PICTURE OF THE DAY</text>
+<text x="796" y="218" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="300" fill="#eef1f6">Evening over the bay</text>
+<text x="796" y="232" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" fill="#eef1f6" fill-opacity="0.8">‹  ›  ↻  ♥  i</text>
+</g>
+</g>
+</svg>
