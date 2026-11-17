@@ -15,6 +15,13 @@ I wanted a desktop that tells me something at a glance without looking like a da
 
 My motive was also to learn how much a Mac tells you with built-in commands only (`ps`, `vm_stat`, `ioreg`, `netstat`, `scutil`) and to build it in an afternoon with Claude Code. No sudo, no accounts, no API keys.
 
+## What it looks like
+
+<p align="center">
+  <img src="images/desktop.jpg" width="100%" alt="A real screenshot of the desktop: a forest boardwalk photo with a thin clock and other time zones top right, CPU, GPU and memory rings with network rates below it, and the picture's title, place and buttons bottom right" />
+</p>
+<p align="center"><sub>A real screenshot of my desktop. Photo: Trail of the Cedars, Glacier National Park, Montana (© DBushue Photography/Getty Images), Bing picture of the day.</sub></p>
+
 | Widget | What it shows |
 |---|---|
 | **Clocks** (`desk-clocks.jsx`) | Big local time in 12-hour format, the date, and up to three more time zones with a sun or moon |
@@ -44,6 +51,29 @@ cp -R mac-desktop-widgets/widgets/* "$HOME/Library/Application Support/Übersich
 ```
 
 Open Übersicht. The widgets appear on the right edge of the desktop. Edit `ZONES` in `desk-clocks.jsx` to pick your time zones.
+
+## How it helps
+
+- **Answers without opening anything.** The time where your team is, whether the Mac is struggling and which app is to blame, all on the desktop you already look at.
+- **Catches a slow Mac early.** Memory pressure and swap show up before the spinning wheel does, and Free up quits the heaviest app in two clicks.
+- **Checks the connection before a call.** One click on Speed tells you if the Wi-Fi or the hub is the problem.
+- **Something new every day.** A fresh photo each morning, with its story one click away.
+- **Costs almost nothing.** See below.
+
+## What more you can build on it
+
+Übersicht runs any shell command and draws the output with React, so anything your Mac can tell you can become a widget. Most of these need no account and no API key:
+
+- **VPN or network dot:** green when the tunnel is up, from `scutil` and `ifconfig`.
+- **CI status:** your latest GitHub Actions runs with `gh run list`, red when one fails.
+- **To-do list:** the top items from a markdown file, oldest first.
+- **Today's agenda:** the next meetings from the macOS Calendar.
+- **Now Playing:** the track from Music or Spotify through `osascript`, with play and skip.
+- **Focus timer:** 25 minutes on the desktop, the other widgets dimmed while it runs.
+- **Battery health:** cycle count and condition from `system_profiler SPPowerDataType`.
+- **Unread counts:** Mail's unread badge through `osascript`, without opening Mail.
+
+The pattern is always the same: one cheap command, a refresh rate that matches how fast the thing changes, and text straight on the photo.
 
 ## Light on battery
 
