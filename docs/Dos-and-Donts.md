@@ -9,6 +9,7 @@
 - **Put your VPN and security tools in `KEEP`** in `desk-memapps.py`, so the Free up panel never offers to quit them.
 - **Write widget files atomically** (temp file + rename).
 - **Validate everything you download** (HTTPS only, size caps, magic bytes) before handing it to the OS.
+- **Let widgets talk through a CSS variable** when one needs to react to another (they share one page). Measure in a `ref` that is a new function every render.
 - **Quit System Settings after changing the wallpaper.** The Wallpaper pane keeps playing aerial previews in the background.
 
 ## ❌ Don't

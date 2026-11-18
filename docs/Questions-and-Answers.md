@@ -31,3 +31,15 @@ Bing's homepage API (`HPImageArchive` and the `hp/api/model` endpoint) for the d
 8. <ins>Does it work on Intel Macs?</ins>
 
 The commands exist on both, but I built and tested it on Apple Silicon only. GPU numbers come from `IOAccelerator`, which reports differently on some Intel GPUs.
+
+9. <ins>Does the Claude card call Anthropic's API or need a key?</ins>
+
+No. Claude Code already sends the plan limits, context and cost to the status line on every reply. The status line saves them to a local file and the card reads that file. No network, no key.
+
+10. <ins>Why does the card show a different % than claude.ai?</ins>
+
+The card shows the last reading Claude Code received. Use on claude.ai or the desktop app counts against the same limits, but the card only sees it after your next Claude Code reply. The header says *as of <time>* when the reading is older than 15 minutes.
+
+11. <ins>Is the $ what I pay?</ins>
+
+No. It's what the session would cost at API prices. On a subscription it's useful for comparing sessions, not a bill.

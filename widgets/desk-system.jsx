@@ -211,6 +211,18 @@ const PANEL_INFO = {
   swap: ["Apps holding compressed / swapped memory", "Swap is memory macOS parked on the disk. It clears when the app holding it quits (Chrome: reopen tabs with Cmd+Shift+T), or fully on a restart. Under 1 GB is normal; only act if it keeps growing or pressure turns amber."],
 };
 
+// Tells the Claude card (desk-claude.jsx) where this card ends, so it slides down when a panel opens
+// instead of being covered: sets the CSS variable --stats-bottom (px from the top of the screen) on <html>.
+// The ref is a new arrow function on every render on purpose: a stable function would only run once, on mount.
+const reportBottom = (el) => {
+  if (!el) return;
+  requestAnimationFrame(() => {
+    const b = Math.round(el.getBoundingClientRect().bottom);
+    const root = document.documentElement;
+    if (b > 0 && root.style.getPropertyValue("--stats-bottom") !== `${b}px`) root.style.setProperty("--stats-bottom", `${b}px`);
+  });
+};
+
 export const render = ({ d, error, showDisk, panel, apps, confirm, rate, rates, ports, ups, testing, speedNow, speedErr }, dispatch) => {
   const speedTest = () => {
     if (testing || (d && d.testing)) return;
@@ -270,7 +282,7 @@ export const render = ({ d, error, showDisk, panel, apps, confirm, rate, rates, 
   const spPath = sp ? (sp[3].startsWith("utun") ? `VPN over ${kindOf(sp[4]) || sp[4]}` : kindOf(sp[4]) || sp[4]) : "";
 
   return (
-    <div>
+    <div ref={(el) => reportBottom(el)}>
       <div className={kick} title="macOS heat level; 'hot · slowing' = the Mac is throttling to cool down">
         <span style={{ color: therm[1] }}><span style={dot(therm[1])} />{therm[0]}</span> · up {first(d.up)}
       </div>

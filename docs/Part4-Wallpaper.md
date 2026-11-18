@@ -42,4 +42,4 @@ Downloading files from the internet and handing them to the OS is exactly where 
 - Network politeness: if the story is missing or the picture is still yesterday's, it re-checks **hourly** (`retry_at`), not every 2 minutes.
 - No accounts, no API keys. It talks only to `www.bing.com` and Microsoft's Spotlight feed.
 
-Back to: [README](../README.md) · See also [Do's and Don'ts](Dos-and-Donts.md)
+Next: [Part 5: Claude Code usage](Part5-Claude-Usage.md) · Back to: [README](../README.md) · See also [Do's and Don'ts](Dos-and-Donts.md)
